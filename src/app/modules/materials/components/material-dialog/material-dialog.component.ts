@@ -44,7 +44,7 @@ export class MaterialDialogComponent implements OnInit, OnDestroy {
     this.renderer.removeClass(document.body, 'dialog-open');
   }
 
-  onDialogClose() {
+  onDialogClose(e) {
     this.dialogRef.close();
     this.renderer.removeClass(document.body, 'dialog-open');
   }

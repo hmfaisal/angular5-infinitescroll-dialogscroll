@@ -1,7 +1,7 @@
 <mat-dialog-content *ngIf="data" [delayClickOutsideInit]="true" (clickOutside)="onClickedOutside($event)" class="dialog-body"
   fxLayout="row" fxLayoutWrap="wrap">
 
-  <div (click)="onDialogClose()" class="x"></div>
+  <div (click)="onDialogClose($event)" class="x"></div>
 
   <div fxLayout="column" fxLayoutWrap="wrap" fxFlex.gt-xs="50%" fxFlex="100%">
     <div class="title">
@@ -45,7 +45,7 @@
             <div class="product-badge">
               <span class="text-md pl-xs pr-xs">{{material.id}}</span>
             </div>
-            <img src="{{material.gallery_image || 'assets/images/img/product_default.png'}}">
+            <img src="{{material.gallery_image || './assets/images/img/product_default.png'}}">
         </figure>
       </div>
     </div>

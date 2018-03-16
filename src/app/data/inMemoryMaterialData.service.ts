@@ -11,7 +11,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0001.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0001.jpg"
             },
             {
                 "id": 202,
@@ -20,7 +20,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0002.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0002.jpg"
             },
             {
                 "id": 203,
@@ -29,7 +29,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0003.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0003.jpg"
             },
             {
                 "id": 204,
@@ -38,7 +38,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid","Free"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0004.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0004.jpg"
             },
             {
                 "id": 205,
@@ -47,7 +47,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0005.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0005.jpg"
             },
             {
                 "id": 206,
@@ -56,7 +56,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0006.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0006.jpg"
             },
             {
                 "id": 207,
@@ -65,7 +65,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0007.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0007.jpg"
             },
             {
                 "id": 208,
@@ -74,7 +74,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0008.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0008.jpg"
             },
             {
                 "id": 209,
@@ -83,7 +83,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0009.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0009.jpg"
             },
             {
                 "id": 210,
@@ -92,7 +92,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0010.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0010.jpg"
             },
             {
                 "id": 211,
@@ -101,7 +101,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0011.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0011.jpg"
             },
             {
                 "id": 212,
@@ -110,7 +110,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0012.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0012.jpg"
             },
             {
                 "id": 213,
@@ -119,7 +119,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0013.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0013.jpg"
             },
             {
                 "id": 214,
@@ -128,7 +128,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid","Free"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0014.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0014.jpg"
             },
             {
                 "id": 215,
@@ -137,7 +137,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0015.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0015.jpg"
             },
             {
                 "id": 216,
@@ -146,7 +146,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0016.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0016.jpg"
             },
             {
                 "id": 217,
@@ -155,7 +155,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0017.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0017.jpg"
             },
             {
                 "id": 218,
@@ -164,7 +164,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0018.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0018.jpg"
             },
             {
                 "id": 219,
@@ -173,7 +173,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0019.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0019.jpg"
             },
             {
                 "id": 220,
@@ -182,7 +182,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0020.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0020.jpg"
             },
             {
                 "id": 221,
@@ -191,7 +191,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0021.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0021.jpg"
             },
             {
                 "id": 222,
@@ -200,7 +200,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0022.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0022.jpg"
             },
             {
                 "id": 223,
@@ -209,7 +209,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0001.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0001.jpg"
             },
             {
                 "id": 224,
@@ -218,7 +218,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0002.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0002.jpg"
             },
             {
                 "id": 225,
@@ -227,7 +227,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0003.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0003.jpg"
             },
             {
                 "id": 226,
@@ -236,7 +236,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid","Free"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0004.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0004.jpg"
             },
             {
                 "id": 227,
@@ -245,7 +245,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0005.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0005.jpg"
             },
             {
                 "id": 228,
@@ -254,7 +254,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0006.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0006.jpg"
             },
             {
                 "id": 229,
@@ -263,7 +263,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0007.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0007.jpg"
             },
             {
                 "id": 230,
@@ -272,7 +272,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0008.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0008.jpg"
             },
             {
                 "id": 231,
@@ -281,7 +281,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0009.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0009.jpg"
             },
             {
                 "id": 232,
@@ -290,7 +290,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0010.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0010.jpg"
             },
             {
                 "id": 233,
@@ -299,7 +299,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0011.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0011.jpg"
             },
             {
                 "id": 234,
@@ -308,7 +308,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0012.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0012.jpg"
             },
             {
                 "id": 235,
@@ -317,7 +317,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0013.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0013.jpg"
             },
             {
                 "id": 236,
@@ -326,7 +326,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid","Free"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0014.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0014.jpg"
             },
             {
                 "id": 237,
@@ -335,7 +335,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0015.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0015.jpg"
             },
             {
                 "id": 238,
@@ -344,7 +344,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0016.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0016.jpg"
             },
             {
                 "id": 239,
@@ -353,7 +353,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0017.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0017.jpg"
             },
             {
                 "id": 240,
@@ -362,7 +362,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0018.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0018.jpg"
             },
             {
                 "id": 241,
@@ -371,7 +371,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0019.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0019.jpg"
             },
             {
                 "id": 242,
@@ -380,7 +380,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0020.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0020.jpg"
             },
             {
                 "id": 243,
@@ -389,7 +389,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0021.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0021.jpg"
             },
             {
                 "id": 244,
@@ -398,7 +398,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0022.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0022.jpg"
             },
             {
                 "id": 245,
@@ -407,7 +407,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0001.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0001.jpg"
             },
             {
                 "id": 246,
@@ -416,7 +416,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0002.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0002.jpg"
             },
             {
                 "id": 247,
@@ -425,7 +425,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0003.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0003.jpg"
             },
             {
                 "id": 248,
@@ -434,7 +434,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid","Free"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0004.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0004.jpg"
             },
             {
                 "id": 249,
@@ -443,7 +443,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0005.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0005.jpg"
             },
             {
                 "id": 250,
@@ -452,7 +452,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0006.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0006.jpg"
             },
             {
                 "id": 251,
@@ -461,7 +461,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0007.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0007.jpg"
             },
             {
                 "id": 252,
@@ -470,7 +470,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0008.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0008.jpg"
             },
             {
                 "id": 253,
@@ -479,7 +479,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0009.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0009.jpg"
             },
             {
                 "id": 254,
@@ -488,7 +488,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0010.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0010.jpg"
             },
             {
                 "id": 255,
@@ -497,7 +497,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0011.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0011.jpg"
             },
             {
                 "id": 256,
@@ -506,7 +506,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0012.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0012.jpg"
             },
             {
                 "id": 257,
@@ -515,7 +515,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0013.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0013.jpg"
             },
             {
                 "id": 258,
@@ -524,7 +524,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid","Free"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0014.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0014.jpg"
             },
             {
                 "id": 259,
@@ -533,7 +533,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0015.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0015.jpg"
             },
             {
                 "id": 260,
@@ -542,7 +542,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0016.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0016.jpg"
             },
             {
                 "id": 261,
@@ -551,7 +551,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0017.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0017.jpg"
             },
             {
                 "id": 262,
@@ -560,7 +560,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0018.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0018.jpg"
             },
             {
                 "id": 263,
@@ -569,7 +569,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0019.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0019.jpg"
             },
             {
                 "id": 264,
@@ -578,7 +578,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0020.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0020.jpg"
             },
             {
                 "id": 265,
@@ -587,7 +587,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0021.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0021.jpg"
             },
             {
                 "id": 266,
@@ -596,7 +596,7 @@ export class InMemoryMaterialDataService implements InMemoryDbService {
                 "tags": ["Paid"],
                 "state": "completed",
                 "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-                "gallery_image": "/assets/images/shader-balls/mat0022.jpg"
+                "gallery_image": "./assets/images/shader-balls/mat0022.jpg"
             },
         ];
         return { materials };

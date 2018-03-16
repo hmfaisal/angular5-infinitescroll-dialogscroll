@@ -1,7 +1,27 @@
 {
     "HOME": "Zuhause",
+    "MATERIALS":"Materialien",
+    "MODELS":"Modelle",
+    "IMAGES":"Bilder",
+    "USERS":"Benutzer",
+    "CUSTOMERS":"Kunden",
+    "TAGS":"Stichworte",
+    "LANGUAGE":"Sprache",
+    "DEUTSCH":"Deutsche",
+    "ENGLISH":"Englisch",
+    "NEW":"Neu",
+    "SCREENING":"Screening",
+    "PROCESSING":"Wird bearbeitet",
+    "SHADING":"Schattierung",
+    "COMPLETED":"Abgeschlossen",
     "YES":"Ja",
     "NO":"Nein",
+
+    "ID":"Id",
+    "NAME":"Name",
+    "ARTICLE_ID":"Artikel Id",
+    "STATE":"Zustand",
+    "DESCRIPTION":"Beschreibung",
 
     "SAVE_BUTTON":"Sparen",
     "SELECT_BUTTON":"Select",
@@ -19,13 +39,9 @@
 	"500_SUBTITLE": "Entschuldigung, aber die Seite, die Sie sehen wollten, existiert nicht",
 	"404_TITLE": "Seite nicht gefunden!",
 	"404_SUBTITLE": "Entschuldigung, aber die Seite, die Sie sehen wollten, existiert nicht",
-	"WRONG_ERROR": "Etwas ist schief gelaufen.",
-   
-    "REGISTRATION_EMAIL":"Wie lautet deine E-Mail-Adresse?",
-    "FORM_FIRSTNAME":"Enter your First Name",
-    "FORM_LASTNAME":"Enter your Last Name",
-    "FORM_FIRSTNAME_TIP":"Enter your First Name",
-    "FORM_LASTNAME_TIP":"Enter your First Name",
+    "WRONG_ERROR": "Etwas ist schief gelaufen.",
+    
+    "SIMILAR_MATERIALS":"Similar materials you may be interested on",
    
     "RESULT_NOT_FOUND":"Keine Einträge gefunden"
 

@@ -19,8 +19,8 @@ const MENUITEMS = [
   {
     link: '/materials',
     name: 'MATERIALS',
-    type: 'link',
-    icon: 'explore',
+    type: 'sub',
+    icon: 'lnr-layers',
     children: [
       {link: 'new',name: 'NEW',icon:'lnr-flag'},
       {link: 'scanning',name: 'SCANNING',icon: 'lnr-flag'},
@@ -30,42 +30,35 @@ const MENUITEMS = [
     ]
   },
   {
-    link: '/',
-    name: 'HOME',
-    type: 'link',
-    icon: 'explore'
-  },
-  {
-    link: '/',
+    link: '/models',
     name: 'MODELS',
-    type: 'link',
-    icon: 'explore'
+    type: 'sub',
+    icon: 'lnr-magic-wand'
   },
   {
-    link: '/',
+    link: '/images',
     name: 'IMAGES',
-    type: 'link',
-    icon: 'explore'
+    type: 'sub',
+    icon: 'lnr-picture'
   },
   {
-    link: '/',
+    link: '/users',
     name: 'USERS',
-    type: 'link',
-    icon: 'explore'
+    type: 'sub',
+    icon: 'lnr-user'
   },
   {
-    link: '/',
+    link: '/customers',
     name: 'CUSTOMERS',
-    type: 'link',
-    icon: 'explore'
+    type: 'sub',
+    icon: 'lnr-users'
   },
   {
-    link: '/',
+    link: '/tags',
     name: 'TAGS',
-    type: 'link',
-    icon: 'explore'
+    type: 'sub',
+    icon: 'lnr-paperclip'
   },
-  ,
   {
     link: 'lang',
     name: 'LANGUAGE',
@@ -75,7 +68,13 @@ const MENUITEMS = [
       {link: 'en',name: 'ENGLISH',icon:'lnr-flag'},
       {link: 'de',name: 'DEUTSCH',icon: 'lnr-flag'},
     ]
-  }
+  },
+  {
+    link: 'more',
+    name: 'MORE',
+    type: 'more',
+    icon: 'lnr-menu',
+  },
 ];
 
 @Injectable()

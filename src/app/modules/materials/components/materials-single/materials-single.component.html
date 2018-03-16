@@ -1,3 +1,22 @@
-<p>
-  materials-single works!
-</p>
+<mat-card *ngIf="singleMaterial">
+  <div class="media-grid">
+    <figure>
+      <a (click)="onClick(singleMaterial.id)">
+        <div class="product-badge">
+          <span class="text-md pl-xs pr-xs">{{singleMaterial.id}}</span>
+        </div>
+        <img src="{{singleMaterial.gallery_image || 'assets/images/img/product_default.png'}}">
+      </a>
+    </figure>
+  </div>
+  <mat-card-content fxLayout="column" fxLayoutWrap="wrap">
+    <mat-chip-list fxLayout="row" fxLayoutWrap="wrap" class="pt-xs pl-xs pr-xs">
+      <mat-chip *ngFor="let tag of singleMaterial.tags" class="text-md" color="accent" selected="true">{{tag}}</mat-chip>
+    </mat-chip-list>
+    <div class="center pa-xs">
+      <a (click)="onClick(singleMaterial.id)">
+        {{singleMaterial.name}}
+      </a>
+    </div>
+  </mat-card-content>
+</mat-card>

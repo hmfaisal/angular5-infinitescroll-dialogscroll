@@ -1,3 +1,4 @@
+import { environment } from '../environments/environment';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
@@ -6,17 +7,18 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HTTP_INTERCEPTORS, HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { HttpModule } from '@angular/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
-import { InMemoryDataService } from './services/inMemoryData.service';
 import { BidiModule } from '@angular/cdk/bidi';
 
 import { AppComponent } from './app.component';
 import { AppRoutes } from './app-routing.module';
 import { SharedModule } from './shared/shared.module';
 import { CoreModule } from './core/core.module';
-
+import { InMemoryMaterialDataService } from './data/inMemoryMaterialData.service';
 import {
-  DataService,
+  ConfigService,
+  PagerService
 } from './services';
 
 export function createTranslateLoader(http: HttpClient) {
@@ -24,17 +26,10 @@ export function createTranslateLoader(http: HttpClient) {
 }
 
 @NgModule({
-  declarations: [
-    AppComponent,
-  ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    CoreModule,
-    FormsModule,
-    ReactiveFormsModule ,
     HttpClientModule, 
-    HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService),
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
@@ -42,12 +37,20 @@ export function createTranslateLoader(http: HttpClient) {
         deps: [HttpClient]
       }
     }),
+    HttpClientInMemoryWebApiModule.forRoot(
+      InMemoryMaterialDataService, { passThruUnknownUrl: true }
+    ),
     SharedModule,
+    CoreModule,
     BidiModule,
     RouterModule.forRoot(AppRoutes)
   ],
+  declarations: [
+    AppComponent,
+  ],
   providers: [
-    DataService,
+    ConfigService,
+    PagerService
   ],
   bootstrap: [AppComponent]
 })

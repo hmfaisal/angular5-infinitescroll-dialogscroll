@@ -1,30 +1,3 @@
-<header>
-    <nav>
-        <div fxLayout="row" fxLayoutWrap="wrap" fxLayoutAlign="end center">
-            <div class="branding">
-                <a [routerLink]="['/']">
-                    <div class="logo"></div>
-                </a>
-            </div>
-            <div *ngFor="let menuitem of menuItems.getAll()">
-                
-                <a *ngIf="menuitem.type === 'sub'" (click)="sidemenu.toggle()" class="ml-xs overflow-visible">
-                    <button matTooltip="{{ menuitem.name | translate }}" mat-icon-button>
-                        <span class="lnr {{ menuitem.icon}}"></span>
-                    </button>
-                </a>
-            </div>
-            <a [matMenuTriggerFor]="lang">
-                <span class="lnr lnr-earth"></span>
-            </a>
-        </div>
-        <mat-menu #lang="matMenu" x-position="before" y-position="after">
-            <button mat-menu-item (click)="changeLanguage('en')" class="small">
-                {{'ENGLISH' | translate}}
-            </button>
-            <button mat-menu-item (click)="changeLanguage('de')" class="small">
-                {{'DEUTSCH' | translate}}
-            </button>
-        </mat-menu>
-    </nav>
-</header>
+<a *ngIf="menuitem && menuitem.type === 'sub'" class="ml-xs" [routerLink]="[menuitem.link]" routerLinkActive="active">
+    <span class="mr-xs text-secondary text-sm">{{ menuitem.name | translate }}</span>
+</a>

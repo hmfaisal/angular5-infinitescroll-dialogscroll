@@ -1,3 +1,5 @@
-<p>
-  second-nav works!
-</p>
+<div *ngIf="menus" fxLayout="row" fxLayoutWrap="wrap" class="pl-1 pr-1 pb-1">
+  <a *ngFor="let childitem of menus" class="ml-xs" [routerLink]="[childitem.link]" routerLinkActive="active">
+    <span class="mr-xs text-secondary">{{ childitem.name | translate }}</span>
+  </a>
+</div>

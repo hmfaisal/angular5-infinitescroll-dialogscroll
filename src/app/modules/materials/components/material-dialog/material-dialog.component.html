@@ -1,0 +1,53 @@
+<mat-dialog-content *ngIf="data" [delayClickOutsideInit]="true" (clickOutside)="onClickedOutside($event)" class="dialog-body"
+  fxLayout="row" fxLayoutWrap="wrap">
+
+  <div (click)="onDialogClose()" class="x"></div>
+
+  <div fxLayout="column" fxLayoutWrap="wrap" fxFlex.gt-xs="50%" fxFlex="100%">
+    <div class="title">
+      {{data.material.name}}
+    </div>
+    <div class="text-secondary text-md pr-xs">
+      {{data.material.description}}
+    </div>
+    <div class="">
+      <span class="label text-md pr-xs">
+        {{ 'ARTICLE_ID' | translate }}:
+      </span>
+      <span class="text-secondary text-md">
+        {{data.material.article_id}}
+      </span>
+    </div>
+    <div class="">
+      <span class="label text-md pr-xs">
+        {{ 'STATE' | translate }}:
+      </span>
+      <span class="text-secondary text-md">
+        {{data.material.state}}
+      </span>
+    </div>
+    <mat-chip-list class="pt-xs pb-xs">
+      <mat-chip *ngFor="let tag of data.material.tags" class="text-md" color="accent" selected="true">{{tag}}</mat-chip>
+    </mat-chip-list>
+  </div>
+  <div fxFlex.gt-xs="50%" fxFlex="100%" class="media-grid" fxFlexOrder.xs="-1">
+    <figure>
+      <img src="{{data.material.gallery_image || 'assets/images/img/product_default.png'}}">
+    </figure>
+  </div>
+  <h2 class="primary">
+    <span>{{ 'SIMILAR_MATERIALS' | translate }}</span>
+  </h2>
+  <div *ngIf="materials" fxLayout="row" fxLayoutWrap="wrap">
+    <div *ngFor="let material of materials" class="pa-xs" fxFlex.gt-lg="20%" fxFlex.gt-xs="25%" fxFlex="50%">
+      <div class="media-grid">
+        <figure>
+            <div class="product-badge">
+              <span class="text-md pl-xs pr-xs">{{material.id}}</span>
+            </div>
+            <img src="{{material.gallery_image || 'assets/images/img/product_default.png'}}">
+        </figure>
+      </div>
+    </div>
+  </div>
+</mat-dialog-content>

@@ -1,6 +1,6 @@
-import {Component, Inject} from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
-import { MenuItems } from '../menu-items/menu-items';
+import { Component, OnInit, Input, OnDestroy } from '@angular/core';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-nav',
@@ -8,18 +8,19 @@ import { MenuItems } from '../menu-items/menu-items';
   styleUrls: ['./nav.component.scss']
 })
 
-export class NavComponent {
+export class NavComponent implements OnInit {
+
+  @Input() menuitem: any;
+  selectedMenu: string;
 
   constructor(
-    public translate: TranslateService,
-    public menuItems: MenuItems,
+    private router: Router,
   ) {
-    const browserLang: string = translate.getBrowserLang();
-    translate.use(browserLang.match(/en|de/) ? browserLang : 'en');
+    
   }
 
-  changeLanguage(language: string): void {
-    this.translate.use(language);
+  ngOnInit() {
+    
   }
 
 }

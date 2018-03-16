@@ -1,0 +1,29 @@
+@import "~assets/styles/scss/material-variable";
+@import "~assets/styles/scss/mixins";
+@import "~assets/styles/scss/app-variable";
+@include material-variables($theme);
+
+a {
+  span{
+    font-size: 0.9rem;
+    @include hover-focus {
+      font-weight: 500;
+      color:mat-color($accent)!important;
+      border-bottom: 2px solid mat-color($accent);
+      .lnr {
+        color:mat-color($accent)!important;
+      }
+    }
+  }
+  
+}
+.active{
+  font-weight: 500;
+  border-bottom: 2px solid mat-color($accent);
+  span{
+    color:mat-color($accent)!important;
+    .lnr{
+      color:mat-color($accent)!important;
+    }
+  }
+}

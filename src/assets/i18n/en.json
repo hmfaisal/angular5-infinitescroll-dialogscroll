@@ -1,13 +1,34 @@
 {
     "HOME": "Home",
+    "MATERIALS":"Materials",
+    "MODELS":"Models",
+    "IMAGES":"Images",
+    "USERS":"Users",
+    "CUSTOMERS":"Customers",
+    "TAGS":"Tags",
+    "LANGUAGE":"Language",
+    "DEUTSCH":"Deutsch",
+    "ENGLISH":"English",
+    "NEW":"New",
+    "SCANNING":"Scanning",
+    "PROCESSING":"Processing",
+    "SHADING":"Shading",
+    "COMPLETED":"Completed",
     "YES":"Yes",
     "NO":"No",
+
+    "ID":"Id",
+    "NAME":"Name",
+    "ARTICLE_ID":"Article Id",
+    "STATE":"State",
+    "DESCRIPTION":"Description",
 
     "SAVE_BUTTON":"Save",
     "SELECT_BUTTON":"Select",
     "SUBMIT_BUTTON":"Submit",
     "BACK_BUTTON":"Back",
     "NEXT_BUTTON":"Next",
+    "CLOSE_BUTTON":"Close",
 
     "ADD_SUCCESSFUL":"Added Successfully",
     "EDIT_SUCCESSFUL":"Updated Successfully",
@@ -21,11 +42,7 @@
     "404_SUBTITLE": "Sorry, but the page you were trying to view does not exist",
     "WRONG_ERROR":"Something went wrong.",
 
-    "REGISTRATION_EMAIL":"Enter your email address",
-    "FORM_FIRSTNAME":"Enter your First Name",
-    "FORM_LASTNAME":"Enter your Last Name",
-    "FORM_FIRSTNAME_TIP":"Enter your First Name",
-    "FORM_LASTNAME_TIP":"Enter your First Name",
+    "SIMILAR_MATERIALS":"Similar materials you may be interested on",
 
     "RESULT_NOT_FOUND":"No Result Found"
 

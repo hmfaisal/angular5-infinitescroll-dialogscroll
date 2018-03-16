@@ -1,23 +1,32 @@
 import { NgModule } from '@angular/core';
 
-import { FlexLayoutModule } from '@angular/flex-layout';
 import { MaterialModule } from './material/material.module';
 import { TranslateModule } from '@ngx-translate/core';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { ClickOutsideModule } from 'ng4-click-outside';
+import { ScrollDirective } from './scroll/scroll.directive';
+
+import { MenuItems } from './menu-items/menu-items';
 
 @NgModule({
   imports: [
-    MaterialModule,
     FlexLayoutModule,
-    TranslateModule
+    MaterialModule,
+    TranslateModule,
+    ClickOutsideModule
   ],
   declarations: [
-
+    ScrollDirective,
   ],
   exports: [
-    MaterialModule,
     FlexLayoutModule,
+    MaterialModule,
     TranslateModule,
+    ClickOutsideModule,
+    ScrollDirective
    ],
-  providers: [ ]
+  providers: [
+    MenuItems
+  ]
 })
 export class SharedModule { }

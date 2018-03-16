@@ -4,7 +4,7 @@ import {RouterModule, Routes} from '@angular/router';
 import {Error404Component} from './core/error404/error-404.component';
 
 export const AppRoutes: Routes = [
-  {path: '', redirectTo: '', pathMatch: 'full'},
+  {path: '', redirectTo: 'materials', pathMatch: 'full'},
   {
     path: 'materials',
     loadChildren: './modules/materials/materials.module#MaterialsModule',

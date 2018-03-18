@@ -1,3 +1,3 @@
-<div id="mat-infinite-scroll-tracker" appScroll (scrolled)="onScroll($event)" *ngIf="data" fxLayout="row" fxLayoutWrap="wrap">
+<div  appScroll (scrolled)="onScroll($event)" *ngIf="data" fxLayout="row" fxLayoutWrap="wrap">
   <app-materials-single *ngFor="let material of data" class="pa-xs" fxFlex.gt-lg="20%" fxFlex.gt-xs="25%" fxFlex="50%" [singleMaterial]="material"></app-materials-single>
 </div>

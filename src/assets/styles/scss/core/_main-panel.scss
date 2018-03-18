@@ -8,33 +8,21 @@
    position: relative;
    width: 100%;
    max-width: 100%;
-   height: calc(100vh - #{$mat-toolbar-height-desktop} );
+   //height: calc(100vh - #{$mat-toolbar-height-desktop} );
    //@include flexbox;
    //@include flex-direction(row);
    color:#000000!important;
    background: url(/assets/images/bg-scribble-light.png);
  }
 
- .sidenav {
-  position: relative;
-  width: 100%;
-  max-width: 100%;
-  height: calc(100vh - #{$mat-toolbar-height-desktop} );
-  //@include flexbox;
-  //@include flex-direction(row);
-  color:#000000!important;
-  background: url(/assets/images/bg-scribble-light.png);
-}
-
  .grid-container {
-  //max-width: 1366px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 60px!important;
   padding-right: 60px!important;
   box-sizing: border-box;
   padding-top: 8px;
-  //z-index: 1000;
+  min-height:960px;
 }
 @include media-breakpoint-down(sm) {
   .grid-container {
@@ -51,6 +39,6 @@
 
  @media ($mat-xsmall) {
     .app-inner {
-      height: calc(100vh - #{$mat-toolbar-height-mobile-portrait});
+      //height: calc(100vh - #{$mat-toolbar-height-mobile-portrait});
     }
   }

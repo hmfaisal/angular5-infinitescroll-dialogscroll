@@ -6,6 +6,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { ClickOutsideModule } from 'ng4-click-outside';
 import { ScrollDirective } from './scroll/scroll.directive';
 
+import {ScrollDispatchModule} from '@angular/cdk/scrolling';
+
 import { MenuItems } from './menu-items/menu-items';
 
 @NgModule({
@@ -13,7 +15,8 @@ import { MenuItems } from './menu-items/menu-items';
     FlexLayoutModule,
     MaterialModule,
     TranslateModule,
-    ClickOutsideModule
+    ClickOutsideModule,
+    ScrollDispatchModule
   ],
   declarations: [
     ScrollDirective,

@@ -1,9 +1,10 @@
-import { Component, OnInit, Input, OnDestroy, ElementRef } from '@angular/core';
+import { Component, OnInit, Input, OnDestroy } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
 import { Observable } from 'rxjs/Observable';
 import { MatSnackBar } from '@angular/material';
 import { TranslateService } from '@ngx-translate/core';
+import {CdkScrollable} from '@angular/cdk/scrolling';
 
 import {
   MaterialsService,
@@ -15,7 +16,7 @@ import {
   templateUrl: './materials-all.component.html',
   styleUrls: ['./materials-all.component.scss']
 })
-export class MaterialsAllComponent implements OnInit, OnDestroy {
+export class MaterialsAllComponent implements OnInit, OnDestroy{
 
   private subscription = new Subscription();
   materials: any[];
@@ -27,7 +28,6 @@ export class MaterialsAllComponent implements OnInit, OnDestroy {
   endReached = false;
 
   constructor(
-    private elementRef: ElementRef,
     private materialsService: MaterialsService,
     private pagerService: PagerService,
     private router: Router,
@@ -37,6 +37,7 @@ export class MaterialsAllComponent implements OnInit, OnDestroy {
     this.subscription.add(translate.get('WRONG_ERROR').subscribe((res: string) => {
       this.error = res;
     }));
+    
   }
 
   ngOnInit() {
@@ -59,6 +60,7 @@ export class MaterialsAllComponent implements OnInit, OnDestroy {
         });
       }));
   }
+
   setPage(page: number) {
     if (page < 1 || page > this.pager.totalPages) {
       return;

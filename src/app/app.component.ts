@@ -3,6 +3,7 @@ import { Router, NavigationEnd } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
 import { TranslateService } from '@ngx-translate/core';
 import { MenuItems } from './shared/menu-items/menu-items';
+import { CdkScrollable } from '@angular/cdk/scrolling';
 
 @Component({
   selector: 'app-root',
@@ -37,7 +38,7 @@ export class AppComponent implements OnInit, OnDestroy {
       if (event instanceof NavigationEnd) {
         this.currentview = event.url;
       }
-    });
+    });  
   }
 
   ngOnDestroy(): void {
@@ -48,13 +49,19 @@ export class AppComponent implements OnInit, OnDestroy {
     this.translate.use(language);
   }
 
-  sideOpen() {
-    this.toggled = true;
-    this.sidemenu.open();
-  }
-
   sideClose($event) {
+    this.renderer.removeClass(document.body, 'dialog-open');
     this.toggled = false;
     this.sidemenu.close();
+  }
+
+  toggle() {
+    this.toggled = !this.toggled;
+    if(this.toggled==true){
+      this.renderer.addClass(document.body, 'dialog-open');
+    }else{
+      this.renderer.removeClass(document.body, 'dialog-open');
+    }
+    this.sidemenu.toggle();
   }
 }

@@ -1,5 +1,5 @@
 # Demo Link
-This demo solution is running on [DEMO](https://hmfaisal.github.io/colormass/)
+This demo solution is running on [DEMO](https://hmfaisal.github.io/angular5-infinitescroll-dialogscroll/)
 
 # About
 
